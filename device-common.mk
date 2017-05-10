@@ -18,7 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit from common
 $(call inherit-product, device/samsung/msm8916-common/msm8916.mk)
 
-LOCAL_PATH := device/samsung/gte-common
+LOCAL_PATH := device/samsung/gt-common
 
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk

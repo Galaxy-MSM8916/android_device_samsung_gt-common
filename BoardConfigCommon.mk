@@ -16,7 +16,7 @@
 # Inherit from common
 include device/samsung/msm8916-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/gte-common
+LOCAL_PATH := device/samsung/gt-common
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
